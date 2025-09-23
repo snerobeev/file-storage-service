@@ -1,0 +1,109 @@
+# Компилированные файлы классов
+*.class
+
+# Лог-файлы
+*.log
+
+# Папка сгенерированных файлов
+/bin/
+build/
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+.idea/**/gradle.xml
+.idea/**/libraries
+.gradle/
+gradle.properties
+
+# Папка с данными кэша и временные файлы
+.cache/
+tmp/
+
+# Файлы конфигурации IDE
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+
+# Папка с библиотеками
+lib/
+
+# Файлы пакета
+*.jar
+*.war
+*.ear
+
+# Скрытые файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# SonarLint
+.sonarlint/
+
+# Папки и файлы кэша SonarLint для разных IDE
+/.idea/sonarlint/
+.vscode/sonarlint/
+.sonar/
+
+.vscode/
+
+.amplicode.xml
+/amplicode.xml
+
+.idea
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+
