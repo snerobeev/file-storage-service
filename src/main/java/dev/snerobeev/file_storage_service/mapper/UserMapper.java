@@ -15,6 +15,8 @@ import org.mapstruct.*;
 public abstract class UserMapper {
 
   public abstract User toEntity(UserCreateRequest dto);
+
   public abstract UserResponse toResponse(User entity);
+
   public abstract void updateEntity(@MappingTarget User entity, UserUpdateRequest dto);
 }

@@ -29,7 +29,7 @@ public class SecurityConfig {
             .requestMatchers("api/user").permitAll()
             .anyRequest().permitAll())
         .formLogin(form -> form
-            .loginPage("/login").usernameParameter("email").defaultSuccessUrl("account")
+            .loginPage("/login").usernameParameter("email").defaultSuccessUrl("/account")
 
         )
         .logout(LogoutConfigurer::permitAll)
