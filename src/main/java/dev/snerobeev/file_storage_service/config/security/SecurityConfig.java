@@ -26,7 +26,7 @@ public class SecurityConfig {
         .cors(cors -> cors.configurationSource(corsConfigurationSource()))
         .csrf(AbstractHttpConfigurer::disable)
         .authorizeHttpRequests(auth -> auth
-            .requestMatchers("api/user").permitAll()
+            .requestMatchers("/api/user").permitAll()
             .anyRequest().permitAll())
         .formLogin(form -> form
             .loginPage("/login").usernameParameter("email").defaultSuccessUrl("/account")
